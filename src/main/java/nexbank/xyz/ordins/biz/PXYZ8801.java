@@ -72,7 +72,7 @@ public class PXYZ8801 extends nexbank.fwk.base.ProcessUnit {
 				i001Req.put("AMOUNT_1", withdraw.get("AMOUNT")); // ACC_NO_1
 				i001Req.put("ACC_NO_2", deposit.get("ACC_NO")); // ACC_NO_2
 				i001Req.put("AMOUNT_2", deposit.get("AMOUNT")); // AMOUNT_2
-				i001Req.put("NOTES",    "100만원초과 이체 ("+withdraw.getString("DESCRIPTION")+")"); // NOTES 
+				i001Req.put("NOTES",    "100만원초과 이체 ("+withdraw.getString("DESCRIPTION")+")"); // NOTES
 				i001Req.put("STATUS",   "등록"); // STATUS
 				i001Req.put("CRE_DTM",  DateUtils.getDateString("yyyyMMddHHmmssSSS")); // CRE_DTM
 				i001Req.put("UPD_DTM",  DateUtils.getDateString("yyyyMMddHHmmssSSS")); // UPD_DTM
