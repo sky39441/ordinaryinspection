@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<method-list>
+    <method fixedLength="false" id="s001">
+        <input>
+            <field additional="" formattingType="" id="TX_TYPE" length="20" lengthRef="" name="TX_TYPE" padChar="0x20" padType="right" type="string" validationLogic="" validationType=""/>
+            <field additional="" formattingType="" id="ACC_NO_1" length="100" lengthRef="" name="ACC_NO_1" padChar="0x20" padType="right" type="string" validationLogic="" validationType=""/>
+            <field additional="" formattingType="" id="AMOUNT_1" length="100" lengthRef="" name="AMOUNT_1" padChar="0x20" padType="right" type="string" validationLogic="" validationType=""/>
+            <field additional="" formattingType="" id="ACC_NO_2" length="100" lengthRef="" name="ACC_NO_2" padChar="0x20" padType="right" type="string" validationLogic="" validationType=""/>
+            <field additional="" formattingType="" id="AMOUNT_2" length="100" lengthRef="" name="AMOUNT_2" padChar="0x20" padType="right" type="string" validationLogic="" validationType=""/>
+            <field additional="" formattingType="" id="NOTES" length="200" lengthRef="" name="NOTES" padChar="0x20" padType="right" type="string" validationLogic="" validationType=""/>
+            <field additional="" formattingType="" id="STATUS" length="10" lengthRef="" name="STATUS" padChar="0x20" padType="right" type="string" validationLogic="" validationType=""/>
+            <field additional="" formattingType="" id="CRE_DTM" length="20" lengthRef="" name="CRE_DTM" padChar="0x20" padType="right" type="string" validationLogic="" validationType=""/>
+            <field additional="" formattingType="" id="UPD_DTM" length="20" lengthRef="" name="UPD_DTM" padChar="0x20" padType="right" type="string" validationLogic="" validationType=""/>
+        </input>
+        <output>
+            <field additional="" formattingType="" id="TX_TYPE" length="20" lengthRef="" name="TX_TYPE" padChar="0x20" padType="right" type="string" validationLogic="" validationType=""/>
+            <field additional="" formattingType="" id="ACC_NO_1" length="100" lengthRef="" name="ACC_NO_1" padChar="0x20" padType="right" type="string" validationLogic="" validationType=""/>
+            <field additional="" formattingType="" id="AMOUNT_1" length="100" lengthRef="" name="AMOUNT_1" padChar="0x20" padType="right" type="string" validationLogic="" validationType=""/>
+            <field additional="" formattingType="" id="ACC_NO_2" length="100" lengthRef="" name="ACC_NO_2" padChar="0x20" padType="right" type="string" validationLogic="" validationType=""/>
+            <field additional="" formattingType="" id="AMOUNT_2" length="100" lengthRef="" name="AMOUNT_2" padChar="0x20" padType="right" type="string" validationLogic="" validationType=""/>
+            <field additional="" formattingType="" id="NOTES" length="200" lengthRef="" name="NOTES" padChar="0x20" padType="right" type="string" validationLogic="" validationType=""/>
+            <field additional="" formattingType="" id="STATUS" length="10" lengthRef="" name="STATUS" padChar="0x20" padType="right" type="string" validationLogic="" validationType=""/>
+            <field additional="" formattingType="" id="CRE_DTM" length="20" lengthRef="" name="CRE_DTM" padChar="0x20" padType="right" type="string" validationLogic="" validationType=""/>
+            <field additional="" formattingType="" id="UPD_DTM" length="20" lengthRef="" name="UPD_DTM" padChar="0x20" padType="right" type="string" validationLogic="" validationType=""/>
+        </output>
+    </method>
+    <method fixedLength="false" id="s002">
+        <input/>
+        <output>
+            <recordSet id="LIST" name="tb_cbs_xyz_ordins_in_h LIST ALL" recordCount="" recordCountRef="">
+                <field additional="" formattingType="" id="TX_TYPE" length="20" lengthRef="" name="TX_TYPE" padChar="0x20" padType="right" type="string" validationLogic="" validationType=""/>
+                <field additional="" formattingType="" id="ACC_NO_1" length="100" lengthRef="" name="ACC_NO_1" padChar="0x20" padType="right" type="string" validationLogic="" validationType=""/>
+                <field additional="" formattingType="" id="AMOUNT_1" length="100" lengthRef="" name="AMOUNT_1" padChar="0x20" padType="right" type="string" validationLogic="" validationType=""/>
+                <field additional="" formattingType="" id="ACC_NO_2" length="100" lengthRef="" name="ACC_NO_2" padChar="0x20" padType="right" type="string" validationLogic="" validationType=""/>
+                <field additional="" formattingType="" id="AMOUNT_2" length="100" lengthRef="" name="AMOUNT_2" padChar="0x20" padType="right" type="string" validationLogic="" validationType=""/>
+                <field additional="" formattingType="" id="NOTES" length="200" lengthRef="" name="NOTES" padChar="0x20" padType="right" type="string" validationLogic="" validationType=""/>
+                <field additional="" formattingType="" id="STATUS" length="10" lengthRef="" name="STATUS" padChar="0x20" padType="right" type="string" validationLogic="" validationType=""/>
+                <field additional="" formattingType="" id="CRE_DTM" length="20" lengthRef="" name="CRE_DTM" padChar="0x20" padType="right" type="string" validationLogic="" validationType=""/>
+                <field additional="" formattingType="" id="UPD_DTM" length="20" lengthRef="" name="UPD_DTM" padChar="0x20" padType="right" type="string" validationLogic="" validationType=""/>
+            </recordSet>
+        </output>
+    </method>
+    <method fixedLength="false" id="i001">
+        <input>
+            <field additional="" formattingType="" id="TX_TYPE" length="20" lengthRef="" name="TX_TYPE" padChar="0x20" padType="right" type="string" validationLogic="" validationType=""/>
+            <field additional="" formattingType="" id="ACC_NO_1" length="100" lengthRef="" name="ACC_NO_1" padChar="0x20" padType="right" type="string" validationLogic="" validationType=""/>
+            <field additional="" formattingType="" id="AMOUNT_1" length="100" lengthRef="" name="AMOUNT_1" padChar="0x20" padType="right" type="string" validationLogic="" validationType=""/>
+            <field additional="" formattingType="" id="ACC_NO_2" length="100" lengthRef="" name="ACC_NO_2" padChar="0x20" padType="right" type="string" validationLogic="" validationType=""/>
+            <field additional="" formattingType="" id="AMOUNT_2" length="100" lengthRef="" name="AMOUNT_2" padChar="0x20" padType="right" type="string" validationLogic="" validationType=""/>
+            <field additional="" formattingType="" id="NOTES" length="200" lengthRef="" name="NOTES" padChar="0x20" padType="right" type="string" validationLogic="" validationType=""/>
+            <field additional="" formattingType="" id="STATUS" length="10" lengthRef="" name="STATUS" padChar="0x20" padType="right" type="string" validationLogic="" validationType=""/>
+            <field additional="" formattingType="" id="CRE_DTM" length="20" lengthRef="" name="CRE_DTM" padChar="0x20" padType="right" type="string" validationLogic="" validationType=""/>
+            <field additional="" formattingType="" id="UPD_DTM" length="20" lengthRef="" name="UPD_DTM" padChar="0x20" padType="right" type="string" validationLogic="" validationType=""/>
+        </input>
+        <output>
+            <field additional="" formattingType="" id="EXPECTED_ROW" length="0" lengthRef="" name="EXPECTED_ROW" padChar="0x30" padType="left" type="int" validationLogic="" validationType=""/>
+        </output>
+    </method>
+    <method fixedLength="false" id="u001">
+        <input>
+            <field additional="" formattingType="" id="TX_TYPE" length="20" lengthRef="" name="TX_TYPE" padChar="0x20" padType="right" type="string" validationLogic="" validationType=""/>
+            <field additional="" formattingType="" id="ACC_NO_1" length="100" lengthRef="" name="ACC_NO_1" padChar="0x20" padType="right" type="string" validationLogic="" validationType=""/>
+            <field additional="" formattingType="" id="AMOUNT_1" length="100" lengthRef="" name="AMOUNT_1" padChar="0x20" padType="right" type="string" validationLogic="" validationType=""/>
+            <field additional="" formattingType="" id="ACC_NO_2" length="100" lengthRef="" name="ACC_NO_2" padChar="0x20" padType="right" type="string" validationLogic="" validationType=""/>
+            <field additional="" formattingType="" id="AMOUNT_2" length="100" lengthRef="" name="AMOUNT_2" padChar="0x20" padType="right" type="string" validationLogic="" validationType=""/>
+            <field additional="" formattingType="" id="NOTES" length="200" lengthRef="" name="NOTES" padChar="0x20" padType="right" type="string" validationLogic="" validationType=""/>
+            <field additional="" formattingType="" id="STATUS" length="10" lengthRef="" name="STATUS" padChar="0x20" padType="right" type="string" validationLogic="" validationType=""/>
+            <field additional="" formattingType="" id="CRE_DTM" length="20" lengthRef="" name="CRE_DTM" padChar="0x20" padType="right" type="string" validationLogic="" validationType=""/>
+            <field additional="" formattingType="" id="UPD_DTM" length="20" lengthRef="" name="UPD_DTM" padChar="0x20" padType="right" type="string" validationLogic="" validationType=""/>
+        </input>
+        <output>
+            <field additional="" formattingType="" id="EXPECTED_ROW" length="0" lengthRef="" name="EXPECTED_ROW" padChar="0x30" padType="left" type="int" validationLogic="" validationType=""/>
+        </output>
+    </method>
+    <method fixedLength="false" id="d001">
+        <input/>
+        <output>
+            <field additional="" formattingType="" id="EXPECTED_ROW" length="0" lengthRef="" name="EXPECTED_ROW" padChar="0x30" padType="left" type="int" validationLogic="" validationType=""/>
+        </output>
+    </method>
+</method-list>

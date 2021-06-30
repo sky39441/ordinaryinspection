@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<method-list>
+    <method fixedLength="true" id="pXYZ88001">
+        <input>
+            <dataSet id="WITHDRAW" name="출금정보">
+                <field additional="" formattingType="" id="ACC_NO" length="20" lengthRef="" name="출금계좌번호" padChar="0x20" padType="right" type="string" validationLogic="" validationType=""/>
+                <field additional="" formattingType="" id="ACC_PASSWD" length="4" lengthRef="" name="출금계좌비밀번호" padChar="0x20" padType="right" type="string" validationLogic="" validationType=""/>
+                <field additional="" formattingType="" id="DESCRIPTION" length="128" lengthRef="" name="출금계좌메시지" padChar="0x20" padType="right" type="string" validationLogic="" validationType=""/>
+            </dataSet>
+            <dataSet id="DEPOSIT" name="입금정보">
+                <field additional="" formattingType="" id="ACC_NO" length="20" lengthRef="" name="입금계좌번호" padChar="0x20" padType="right" type="string" validationLogic="" validationType=""/>
+                <field additional="" formattingType="" id="DESCRIPTION" length="128" lengthRef="" name="입금계좌메시지" padChar="0x20" padType="right" type="string" validationLogic="" validationType=""/>
+            </dataSet>
+            <field additional="" formattingType="" id="AMOUNT" length="17" lengthRef="" name="금액" padChar="0x30" padType="left" type="long" validationLogic="" validationType=""/>
+        </input>
+        <output/>
+    </method>
+    <method fixedLength="true" id="pXYZ88002">
+        <input/>
+        <output/>
+    </method>
+</method-list>

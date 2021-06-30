@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ordinaryinspection
+  labels:
+    app: ordinaryinspection
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: ordinaryinspection
+  template:
+    metadata:
+      labels:
+        app: ordinaryinspection
+    spec:
+      containers:
+      - name: ordinaryinspection
+        image: hocheol.azurecr.io/ordinaryinspection-jar:latest
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 8088
+        env :
+        - name : EVENT_HUB
+          value : ordinaryinspection

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqlMap PUBLIC "-//iBATIS.com//DTD SQL Map 2.0//EN" "http://ibatis.apache.org/dtd/sql-map-2.dtd">
+<sqlMap namespace="${__NAMESPACE__}">
+	<select id="S001" parameterClass="map" resultClass="hmap" fetchSize="50"><![CDATA[/* tb_cbs_xyz_ordins_in_h SELECT | admin (Administrator), 2021-06-30 18:07:03 */
+SELECT
+       a.TX_TYPE  AS TX_TYPE  /*  */ 
+     , a.ACC_NO_1 AS ACC_NO_1 /*  */ 
+     , a.AMOUNT_1 AS AMOUNT_1 /*  */ 
+     , a.ACC_NO_2 AS ACC_NO_2 /*  */ 
+     , a.AMOUNT_2 AS AMOUNT_2 /*  */ 
+     , a.NOTES    AS NOTES    /*  */ 
+     , a.STATUS   AS STATUS   /*  */ 
+     , a.CRE_DTM  AS CRE_DTM  /*  */ 
+     , a.UPD_DTM  AS UPD_DTM  /*  */ 
+  FROM tb_cbs_xyz_ordins_in_h a /*  */ 
+ WHERE a.TX_TYPE  = #TX_TYPE#
+   AND a.ACC_NO_1 = #ACC_NO_1#
+   AND a.AMOUNT_1 = #AMOUNT_1#
+   AND a.ACC_NO_2 = #ACC_NO_2#
+   AND a.AMOUNT_2 = #AMOUNT_2#
+   AND a.NOTES    = #NOTES#
+   AND a.STATUS   = #STATUS#
+   AND a.CRE_DTM  = #CRE_DTM#
+   AND a.UPD_DTM  = #UPD_DTM#]]>
+	</select>
+	<select id="S002" parameterClass="map" resultClass="hmap" fetchSize="50"><![CDATA[/* tb_cbs_xyz_ordins_in_h SELECT ALL | admin (Administrator), 2021-06-30 18:07:03 */
+SELECT
+       a.TX_TYPE  AS TX_TYPE  /*  */ 
+     , a.ACC_NO_1 AS ACC_NO_1 /*  */ 
+     , a.AMOUNT_1 AS AMOUNT_1 /*  */ 
+     , a.ACC_NO_2 AS ACC_NO_2 /*  */ 
+     , a.AMOUNT_2 AS AMOUNT_2 /*  */ 
+     , a.NOTES    AS NOTES    /*  */ 
+     , a.STATUS   AS STATUS   /*  */ 
+     , a.CRE_DTM  AS CRE_DTM  /*  */ 
+     , a.UPD_DTM  AS UPD_DTM  /*  */ 
+  FROM tb_cbs_xyz_ordins_in_h a /*  */ ]]>
+	</select>
+	<insert id="I001" parameterClass="map"><![CDATA[/* tb_cbs_xyz_ordins_in_h INSERT | admin (Administrator), 2021-06-30 18:07:03 */
+INSERT
+  INTO tb_cbs_xyz_ordins_in_h
+      ( TX_TYPE  /*  */ 	
+      , ACC_NO_1 /*  */ 	
+      , AMOUNT_1 /*  */ 	
+      , ACC_NO_2 /*  */ 	
+      , AMOUNT_2 /*  */ 	
+      , NOTES    /*  */ 	
+      , STATUS   /*  */ 	
+      , CRE_DTM  /*  */ 	
+      , UPD_DTM  /*  */ )	
+VALUES
+      ( #TX_TYPE#	
+      , #ACC_NO_1# 	
+      , #AMOUNT_1# 	
+      , #ACC_NO_2# 	
+      , #AMOUNT_2# 	
+      , #NOTES# 	
+      , #STATUS# 	
+      , #CRE_DTM# 	
+      , #UPD_DTM#)]]>
+	</insert>
+	<update id="U001" parameterClass="map"><![CDATA[/* tb_cbs_xyz_ordins_in_h UPDATE | admin (Administrator), 2021-06-30 18:07:03 */
+UPDATE tb_cbs_xyz_ordins_in_h
+   SET TX_TYPE  = #TX_TYPE#  /*  */ 
+     , ACC_NO_1 = #ACC_NO_1# /*  */ 
+     , AMOUNT_1 = #AMOUNT_1# /*  */ 
+     , ACC_NO_2 = #ACC_NO_2# /*  */ 
+     , AMOUNT_2 = #AMOUNT_2# /*  */ 
+     , NOTES    = #NOTES#    /*  */ 
+     , STATUS   = #STATUS#   /*  */ 
+     , CRE_DTM  = #CRE_DTM#  /*  */ 
+     , UPD_DTM  = #UPD_DTM#  /*  */ ]]>
+	</update>
+	<delete id="D001" parameterClass="map"><![CDATA[/* tb_cbs_xyz_ordins_in_h DELETE | admin (Administrator), 2021-06-30 18:07:03 */
+DELETE
+  FROM tb_cbs_xyz_ordins_in_h]]>
+	</delete>
+</sqlMap>
